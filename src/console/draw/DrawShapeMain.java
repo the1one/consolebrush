@@ -21,7 +21,7 @@ public class DrawShapeMain {
 
 			// draw canvas
 			if (command.equals("C")) {
-
+				System.out.println("Enter the length and height");
 				int width = in.nextInt();
 				int height = in.nextInt();
 				body = new char[height][width];

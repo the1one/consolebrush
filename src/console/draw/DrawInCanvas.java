@@ -31,13 +31,13 @@ public class DrawInCanvas {
 			canvas.drawCanvas();
 		}
 		else{
-			System.out.println("Only vertical or horisontal lines can be drawn");
+			System.out.println("Only vertical or horizontal lines can be drawn");
 		}
 	}
 	
 	// build rectangle from x1,y1 x2,y2
 	public void buildRectangle(char body[][], BuildCanvas canvas){
-		System.out.println("Draw Rectangle between potins x1,y1 and x2,y2 ");
+		System.out.println("Draw Rectangle between points x1,y1 and x2,y2 ");
 		x1 = in.nextInt()-1;
 		y1 = in.nextInt()-1;
 		x2 = in.nextInt()-1;
