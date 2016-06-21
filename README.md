@@ -11,6 +11,13 @@ a.1.0) Run the program and wait for the prompt
   
 a.1.2) Enter the x(length) and y(height) you want to draw. Example is shown below.
   10 5
+ ------------
+ |          |
+ |          |
+ |          |
+ |          |
+ |          |
+ ------------
 
 a.2.1) Enter L to draw a line inside the canvas where you will be promted to enter coordinates x1,y1/x2,y2.
 L
