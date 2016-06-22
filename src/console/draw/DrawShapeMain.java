@@ -21,7 +21,7 @@ public class DrawShapeMain {
 
 			// draw canvas
 			if (command.equals("C")) {
-
+				System.out.println("Enter the length and height");
 				int width = in.nextInt();
 				int height = in.nextInt();
 				body = new char[height][width];
@@ -33,7 +33,7 @@ public class DrawShapeMain {
 			// draw line
 			if (command.equals("L")) {
 				try {
-					drawShape.buildLine(body, canvas);
+					drawShape.buildLine(canvas.canvasBody, canvas);
 				} catch (ArrayIndexOutOfBoundsException e) {
 					System.out.println("your input is out of bounds ");
 				}
@@ -48,6 +48,7 @@ public class DrawShapeMain {
 			}
 			// command to fill the empty spaces
 			if (command.equals("B")) {
+				System.out.println("Enter coordinates and a fill");
 				int width = in.nextInt();
 				int height = in.nextInt();
 				char[] fill = in.next().toCharArray();
