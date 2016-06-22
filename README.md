@@ -1,6 +1,6 @@
-This is consolebrush version 2 that contains some minor improvements and the below user guide. 
+This is consolebrush version 2 that contains some minor improvements and a simple user guide. The program draws shapes in the console. Shapes are limited to drawing a canvas, vertical/horisontal lines, squares and it can fill the canvas with a paint your provide in the command prompt.
 
-How to use this program.
+How to use the program.
 
 a.1.0) Run the program and wait for the prompt 
 "Enter a command: C=Canvas, L=Line, R=Rectangle, B=Fill or Q=Quit"
@@ -39,7 +39,7 @@ Running the tests
 
 b.1.0) select the ConsoleTest class and pres run
 
-b.2.1) you will be promted to enter coordinates to draw a line
+b.2.1) you will be prompted to enter coordinates to draw a line
 
 "Draw line between points x1,y1 and x2,y2" 
 2 3 6 3
